@@ -16,5 +16,20 @@ html,body {
     transform: translate(-50%,-50%);
     width: 60%;
     height: 60%;
-    background-color: red;
+    /* background-color: red; */
+}
+
+.imagediv{
+    position: absolute;
+    overflow: hidden;
+    height: 300px;
+    width: 200px;
+    /* background-color: yellow; */
+}
+
+.imagediv img{
+    transform: translateY(100%);
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
